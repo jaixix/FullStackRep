@@ -3,6 +3,9 @@ body{
     background: darkgrey;
 }
 
+area{
+    outline: none;
+}
 h1{
     color:white;
     text-transform: uppercase;
@@ -14,7 +17,7 @@ img{
 }
 
 #one{
-    border: 8px solid white;
+    border: 2px solid white;
 }
 
 p{
