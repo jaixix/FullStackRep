@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: grey;
+    background: darkgrey;
 }
 
 img{
@@ -11,5 +11,5 @@ img{
 }
 
 p{
-    background-color: darkgrey;
+    background-color: grey;
 }
