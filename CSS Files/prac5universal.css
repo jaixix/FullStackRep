@@ -1,5 +1,6 @@
 body{
     text-align: center;
+    background: grey;
 }
 
 img{
@@ -7,4 +8,8 @@ img{
             margin: 0 auto 0 auto;
             max-width: 638px;
             max-height: 444px;
+}
+
+p{
+    background-color: darkgrey;
 }
