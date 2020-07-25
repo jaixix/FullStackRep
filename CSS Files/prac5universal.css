@@ -1,5 +1,4 @@
 body{
-    text-align: center;
     background: darkgrey;
 }
 
@@ -12,5 +11,5 @@ img{
 
 p{
     background-color: grey;
-    padding: 5px 2px;
+    padding: 10px 5px;
 }
