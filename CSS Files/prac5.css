@@ -13,6 +13,10 @@ img{
     margin : 0 auto 0 auto;
 }
 
+#one{
+    border: 4px solid white;
+}
+
 p{
     color:red;
 }
