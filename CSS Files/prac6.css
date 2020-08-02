@@ -17,12 +17,12 @@
     font-family: serif;
   }
 
-  .one{
+  .d1{
       text-align: center;
       margin-left: 50px;
       margin-right: 50px;
   }
-  .box {
+  .container {
     display: block;
     float: left;
     width: 100%;    
@@ -32,7 +32,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .box {
+  .container {
     color: white;
     margin: 5px 5px;
     border-radius: 5px;
@@ -41,17 +41,17 @@
     margin: 30px;
     background-color:black  ;
   }
-  .box:hover {
+  .container:hover {
     background-color: rgb(255, 255, 255);
     color: black;
   }
   
-  .boxImage img {
+  .containerImage img {
     width: 100%;
     border-radius: 10px;
     height: 150px;
   }
-  .boxImage {
+  .containerImage {
     padding: 20px;
   }
   
@@ -84,7 +84,7 @@
   }
   
   .button a {
-    text-decoration: none;
+    text-decoration: nd1;
     color: white;
     text-align: center;
     width: 100%;
