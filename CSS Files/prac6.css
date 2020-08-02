@@ -17,12 +17,12 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
 
-      .d1{
+      .one{
           text-align: center;
           margin-left: 50px;
           margin-right: 50px;
       }
-      .container {
+      .myContainer {
         display: block;
         float: left;
         width: 100%;    
