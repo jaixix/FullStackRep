@@ -1,7 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-content: center;
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
 .header{
     background-color:darkgrey;
-    text-align: center;
     justify-content: center;
     display: flex;
     font-size: 40px;
+    height: 70px;
+    margin-bottom: 10px;
+    padding: 10px 50px;
 }
