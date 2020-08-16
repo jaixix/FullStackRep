@@ -9,7 +9,7 @@
     margin: 10px;
     align-content: center;
     color: white;
-    font-family: serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
   
   
@@ -67,11 +67,12 @@
   .banner {
     display: flex;
     justify-content: left;
-    color: cornflowerblue;
+    color: white;
     background-color: rgb(55, 202, 221);
     background-image: url(../Images/emile-perron-xrVDYZRGdw4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
     height: 700px;
     font-size: 40px;
     margin-top: 10px;
