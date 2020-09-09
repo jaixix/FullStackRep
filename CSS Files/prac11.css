@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+table{
+    border : 3px solid darkblue;
+    margin : 10px auto;
+    border-radius: 8px;
+    border-spacing: 0px;
+    
+}
+thead tr:first-child {
+background: #34495e;
+color: #fff;
+border: none;
+}
+thead tr:last-child th {
+border-bottom: 3px solid #ddd;
+text-align: left;
+}
+tr,th,td{
+   padding: 15px;
+}
+
+td{
+    border-bottom: 1px solid #ddd;
+}
+tbody tr:hover {
+background-color: rgb(240, 240, 240);
+transition: 0.4s;
+}
+.done{
+   color : green;
+}
+.undone{
+   color: red;
+}
+.heffect{
+   color : gray;
+   text-decoration: none;
+}
+.heffect:hover {
+color: darkblue;
+ }
+.fa {
+    font-size: 23px;
+    color: rgba(92, 89, 89, 0.7);
+}
+
+.fa:hover {
+    color: darkblue;;
+}
+
+.fa-trash {
+    margin-left: 10px;
+}
+
+tbody td:nth-child(2) {
+    width: 500px;
+}
