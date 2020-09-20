@@ -101,6 +101,10 @@ input[type=submit] {
     color: black;
 }
 
+#p2{
+    margin-top:10px;
+}
+
 .form1container p#p2 {
     display: inline-block;
     margin-left: 15px;
