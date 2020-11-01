@@ -62,6 +62,7 @@ header h1 {
 
 .form1container {
     padding: 20px;
+    height:2em;
 }
 
 input[type=email] {

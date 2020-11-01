@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <h1>COUNTER</h1>
+    <div id="container">
+      <button id="dec" onclick="dec()">-</button>
+      <div id="counter">0</div>
+      <button id="inc" onclick="inc()">+</button>
+    </div>
+    <script>
+      var counter = parseInt(document.getElementById("counter").innerHTML);
+      var btn1 = document.getElementById("dec");
+      btn1.disabled = true;
+      function dec() {
+        counter = counter - 1;
+        document.getElementById("counter").innerHTML = counter;
+        if (counter == 0) {
+          btn1.disabled = true;
+        }
+      }
+      function inc() {
+        counter = counter + 1;
+        document.getElementById("counter").innerHTML = counter;
+        btn1.disabled = false;
+      }
+    </script>
+  </body>
+</html>
