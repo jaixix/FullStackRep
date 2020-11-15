@@ -44,7 +44,7 @@ function setGreeting() {
         document.body.style.backgroundImage = 'url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")';
         greeting.innerHTML = "GOOD EVENING";
     } else {
-        document.body.style.backgroundImage = 'url("https://github.com/jaixix/FullStackRep/blob/master/Images/night.jpg?raw=true")';
+        document.body.style.backgroundImage = 'url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")';
         document.body.style.color = "white"
         greeting.innerHTML = "GOOD NIGHT";
     }
