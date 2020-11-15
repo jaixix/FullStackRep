@@ -34,7 +34,7 @@ function setGreeting() {
     var today = new Date();
     var h = today.getHours();
     if (h < 12) {
-        document.body.style.backgroundImage = 'url("morning.jpg")';
+        document.body.style.backgroundImage = 'url("")';
         greeting.innerHTML = "GOOD MORNING";
     } else if (h < 16) {
         document.body.style.backgroundImage = 'url("afternoon.jpg")';
